@@ -1,695 +1,1351 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 77;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		25AF298B3078BBD400DA7DE4 /* QuickTasks Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 25AF298A3078BBD400DA7DE4 /* QuickTasks Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		25AF298C3078BBD400DA7DE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 25AF297E3078BBD300DA7DE4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 25AF29893078BBD400DA7DE4;
-			remoteInfo = "QuickTasks Watch App";
-		};
-		25AF299A3078BBD600DA7DE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 25AF297E3078BBD300DA7DE4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 25AF29893078BBD400DA7DE4;
-			remoteInfo = "QuickTasks Watch App";
-		};
-		25AF29A43078BBD600DA7DE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 25AF297E3078BBD300DA7DE4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 25AF29893078BBD400DA7DE4;
-			remoteInfo = "QuickTasks Watch App";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		25AF29B03078BBD600DA7DE4 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				25AF298B3078BBD400DA7DE4 /* QuickTasks Watch App.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
-/* Begin PBXFileReference section */
-		25AF29843078BBD400DA7DE4 /* QuickTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		25AF298A3078BBD400DA7DE4 /* QuickTasks Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuickTasks Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		25AF29993078BBD600DA7DE4 /* QuickTasks Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QuickTasks Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		25AF29A33078BBD600DA7DE4 /* QuickTasks Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QuickTasks Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		25AF298E3078BBD400DA7DE4 /* QuickTasks Watch App */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "QuickTasks Watch App";
-			sourceTree = "<group>";
-		};
-		25AF299C3078BBD600DA7DE4 /* QuickTasks Watch AppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "QuickTasks Watch AppTests";
-			sourceTree = "<group>";
-		};
-		25AF29A63078BBD600DA7DE4 /* QuickTasks Watch AppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "QuickTasks Watch AppUITests";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		25AF29873078BBD400DA7DE4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		25AF29963078BBD600DA7DE4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		25AF29A03078BBD600DA7DE4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		25AF297D3078BBD300DA7DE4 = {
-			isa = PBXGroup;
-			children = (
-				25AF298E3078BBD400DA7DE4 /* QuickTasks Watch App */,
-				25AF299C3078BBD600DA7DE4 /* QuickTasks Watch AppTests */,
-				25AF29A63078BBD600DA7DE4 /* QuickTasks Watch AppUITests */,
-				25AF29853078BBD400DA7DE4 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		25AF29853078BBD400DA7DE4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				25AF29843078BBD400DA7DE4 /* QuickTasks.app */,
-				25AF298A3078BBD400DA7DE4 /* QuickTasks Watch App.app */,
-				25AF29993078BBD600DA7DE4 /* QuickTasks Watch AppTests.xctest */,
-				25AF29A33078BBD600DA7DE4 /* QuickTasks Watch AppUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		25AF29833078BBD300DA7DE4 /* QuickTasks */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 25AF29B13078BBD600DA7DE4 /* Build configuration list for PBXNativeTarget "QuickTasks" */;
-			buildPhases = (
-				25AF29823078BBD300DA7DE4 /* Resources */,
-				25AF29B03078BBD600DA7DE4 /* Embed Watch Content */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				25AF298D3078BBD400DA7DE4 /* PBXTargetDependency */,
-			);
-			name = QuickTasks;
-			packageProductDependencies = (
-			);
-			productName = QuickTasks;
-			productReference = 25AF29843078BBD400DA7DE4 /* QuickTasks.app */;
-			productType = "com.apple.product-type.application.watchapp2-container";
-		};
-		25AF29893078BBD400DA7DE4 /* QuickTasks Watch App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 25AF29AD3078BBD600DA7DE4 /* Build configuration list for PBXNativeTarget "QuickTasks Watch App" */;
-			buildPhases = (
-				25AF29863078BBD400DA7DE4 /* Sources */,
-				25AF29873078BBD400DA7DE4 /* Frameworks */,
-				25AF29883078BBD400DA7DE4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				25AF298E3078BBD400DA7DE4 /* QuickTasks Watch App */,
-			);
-			name = "QuickTasks Watch App";
-			packageProductDependencies = (
-			);
-			productName = "QuickTasks Watch App";
-			productReference = 25AF298A3078BBD400DA7DE4 /* QuickTasks Watch App.app */;
-			productType = "com.apple.product-type.application";
-		};
-		25AF29983078BBD600DA7DE4 /* QuickTasks Watch AppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 25AF29B43078BBD600DA7DE4 /* Build configuration list for PBXNativeTarget "QuickTasks Watch AppTests" */;
-			buildPhases = (
-				25AF29953078BBD600DA7DE4 /* Sources */,
-				25AF29963078BBD600DA7DE4 /* Frameworks */,
-				25AF29973078BBD600DA7DE4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				25AF299B3078BBD600DA7DE4 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				25AF299C3078BBD600DA7DE4 /* QuickTasks Watch AppTests */,
-			);
-			name = "QuickTasks Watch AppTests";
-			packageProductDependencies = (
-			);
-			productName = "QuickTasks Watch AppTests";
-			productReference = 25AF29993078BBD600DA7DE4 /* QuickTasks Watch AppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		25AF29A23078BBD600DA7DE4 /* QuickTasks Watch AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 25AF29B73078BBD600DA7DE4 /* Build configuration list for PBXNativeTarget "QuickTasks Watch AppUITests" */;
-			buildPhases = (
-				25AF299F3078BBD600DA7DE4 /* Sources */,
-				25AF29A03078BBD600DA7DE4 /* Frameworks */,
-				25AF29A13078BBD600DA7DE4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				25AF29A53078BBD600DA7DE4 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				25AF29A63078BBD600DA7DE4 /* QuickTasks Watch AppUITests */,
-			);
-			name = "QuickTasks Watch AppUITests";
-			packageProductDependencies = (
-			);
-			productName = "QuickTasks Watch AppUITests";
-			productReference = 25AF29A33078BBD600DA7DE4 /* QuickTasks Watch AppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		25AF297E3078BBD300DA7DE4 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2660;
-				LastUpgradeCheck = 2660;
-				TargetAttributes = {
-					25AF29833078BBD300DA7DE4 = {
-						CreatedOnToolsVersion = 26.6;
-					};
-					25AF29893078BBD400DA7DE4 = {
-						CreatedOnToolsVersion = 26.6;
-					};
-					25AF29983078BBD600DA7DE4 = {
-						CreatedOnToolsVersion = 26.6;
-						TestTargetID = 25AF29893078BBD400DA7DE4;
-					};
-					25AF29A23078BBD600DA7DE4 = {
-						CreatedOnToolsVersion = 26.6;
-						TestTargetID = 25AF29893078BBD400DA7DE4;
-					};
-				};
-			};
-			buildConfigurationList = 25AF29813078BBD300DA7DE4 /* Build configuration list for PBXProject "QuickTasks" */;
-			developmentRegion = en;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 25AF297D3078BBD300DA7DE4;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = 25AF29853078BBD400DA7DE4 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				25AF29833078BBD300DA7DE4 /* QuickTasks */,
-				25AF29893078BBD400DA7DE4 /* QuickTasks Watch App */,
-				25AF29983078BBD600DA7DE4 /* QuickTasks Watch AppTests */,
-				25AF29A23078BBD600DA7DE4 /* QuickTasks Watch AppUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		25AF29823078BBD300DA7DE4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		25AF29883078BBD400DA7DE4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		25AF29973078BBD600DA7DE4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		25AF29A13078BBD600DA7DE4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		25AF29863078BBD400DA7DE4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		25AF29953078BBD600DA7DE4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		25AF299F3078BBD600DA7DE4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		25AF298D3078BBD400DA7DE4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 25AF29893078BBD400DA7DE4 /* QuickTasks Watch App */;
-			targetProxy = 25AF298C3078BBD400DA7DE4 /* PBXContainerItemProxy */;
-		};
-		25AF299B3078BBD600DA7DE4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 25AF29893078BBD400DA7DE4 /* QuickTasks Watch App */;
-			targetProxy = 25AF299A3078BBD600DA7DE4 /* PBXContainerItemProxy */;
-		};
-		25AF29A53078BBD600DA7DE4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 25AF29893078BBD400DA7DE4 /* QuickTasks Watch App */;
-			targetProxy = 25AF29A43078BBD600DA7DE4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		25AF29AB3078BBD600DA7DE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = H2SGDST2MQ;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		25AF29AC3078BBD600DA7DE4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = H2SGDST2MQ;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-			};
-			name = Release;
-		};
-		25AF29AE3078BBD600DA7DE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H2SGDST2MQ;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = QuickTasks;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKWatchOnly = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = lk.ac.sliit.QuickTasks.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 26.5;
-			};
-			name = Debug;
-		};
-		25AF29AF3078BBD600DA7DE4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H2SGDST2MQ;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = QuickTasks;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKWatchOnly = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = lk.ac.sliit.QuickTasks.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 26.5;
-			};
-			name = Release;
-		};
-		25AF29B23078BBD600DA7DE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H2SGDST2MQ;
-				INFOPLIST_KEY_CFBundleDisplayName = QuickTasks;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = lk.ac.sliit.QuickTasks;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		25AF29B33078BBD600DA7DE4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H2SGDST2MQ;
-				INFOPLIST_KEY_CFBundleDisplayName = QuickTasks;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = lk.ac.sliit.QuickTasks;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		25AF29B53078BBD600DA7DE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H2SGDST2MQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "lk.ac.sliit.QuickTasks-Watch-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickTasks Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuickTasks Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 26.5;
-			};
-			name = Debug;
-		};
-		25AF29B63078BBD600DA7DE4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H2SGDST2MQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "lk.ac.sliit.QuickTasks-Watch-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickTasks Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuickTasks Watch App";
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 26.5;
-			};
-			name = Release;
-		};
-		25AF29B83078BBD600DA7DE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H2SGDST2MQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "lk.ac.sliit.QuickTasks-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "QuickTasks Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 26.5;
-			};
-			name = Debug;
-		};
-		25AF29B93078BBD600DA7DE4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H2SGDST2MQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "lk.ac.sliit.QuickTasks-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "QuickTasks Watch App";
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 26.5;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		25AF29813078BBD300DA7DE4 /* Build configuration list for PBXProject "QuickTasks" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				25AF29AB3078BBD600DA7DE4 /* Debug */,
-				25AF29AC3078BBD600DA7DE4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		25AF29AD3078BBD600DA7DE4 /* Build configuration list for PBXNativeTarget "QuickTasks Watch App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				25AF29AE3078BBD600DA7DE4 /* Debug */,
-				25AF29AF3078BBD600DA7DE4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		25AF29B13078BBD600DA7DE4 /* Build configuration list for PBXNativeTarget "QuickTasks" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				25AF29B23078BBD600DA7DE4 /* Debug */,
-				25AF29B33078BBD600DA7DE4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		25AF29B43078BBD600DA7DE4 /* Build configuration list for PBXNativeTarget "QuickTasks Watch AppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				25AF29B53078BBD600DA7DE4 /* Debug */,
-				25AF29B63078BBD600DA7DE4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		25AF29B73078BBD600DA7DE4 /* Build configuration list for PBXNativeTarget "QuickTasks Watch AppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				25AF29B83078BBD600DA7DE4 /* Debug */,
-				25AF29B93078BBD600DA7DE4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 25AF297E3078BBD300DA7DE4 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>56</string>
+	<key>objects</key>
+	<dict>
+		<key>00E3C1D844B746388C597C1E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>QuickTasks_Watch_AppTests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>25AF297D3078BBD300DA7DE4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>58E118D19C6242E6968B2CD7</string>
+				<string>E87AE62380254A3F9206428C</string>
+				<string>E909132B379D41A798B28CD4</string>
+				<string>25AF29853078BBD400DA7DE4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>25AF297E3078BBD300DA7DE4</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>BuildIndependentTargetsInParallel</key>
+				<string>1</string>
+				<key>LastSwiftUpdateCheck</key>
+				<string>1520</string>
+				<key>LastUpgradeCheck</key>
+				<string>1520</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>25AF29833078BBD300DA7DE4</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>15.2</string>
+					</dict>
+					<key>25AF29893078BBD400DA7DE4</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>15.2</string>
+					</dict>
+					<key>25AF29983078BBD600DA7DE4</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>15.2</string>
+						<key>TestTargetID</key>
+						<string>25AF29893078BBD400DA7DE4</string>
+					</dict>
+					<key>25AF29A23078BBD600DA7DE4</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>15.2</string>
+						<key>TestTargetID</key>
+						<string>25AF29893078BBD400DA7DE4</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>25AF29813078BBD300DA7DE4</string>
+			<key>developmentRegion</key>
+			<string>en</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>25AF297D3078BBD300DA7DE4</string>
+			<key>minimizedProjectReferenceProxies</key>
+			<string>1</string>
+			<key>productRefGroup</key>
+			<string>25AF29853078BBD400DA7DE4</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>25AF29833078BBD300DA7DE4</string>
+				<string>25AF29893078BBD400DA7DE4</string>
+				<string>25AF29983078BBD600DA7DE4</string>
+				<string>25AF29A23078BBD600DA7DE4</string>
+			</array>
+		</dict>
+		<key>25AF29813078BBD300DA7DE4</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>25AF29AB3078BBD600DA7DE4</string>
+				<string>25AF29AC3078BBD600DA7DE4</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>25AF29823078BBD300DA7DE4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>25AF29833078BBD300DA7DE4</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>25AF29B13078BBD600DA7DE4</string>
+			<key>buildPhases</key>
+			<array>
+				<string>25AF29823078BBD300DA7DE4</string>
+				<string>25AF29B03078BBD600DA7DE4</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>25AF298D3078BBD400DA7DE4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>QuickTasks</string>
+			<key>packageProductDependencies</key>
+			<array/>
+			<key>productName</key>
+			<string>QuickTasks</string>
+			<key>productReference</key>
+			<string>25AF29843078BBD400DA7DE4</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application.watchapp2-container</string>
+		</dict>
+		<key>25AF29843078BBD400DA7DE4</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>QuickTasks.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>25AF29853078BBD400DA7DE4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>25AF29843078BBD400DA7DE4</string>
+				<string>25AF298A3078BBD400DA7DE4</string>
+				<string>25AF29993078BBD600DA7DE4</string>
+				<string>25AF29A33078BBD600DA7DE4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>25AF29863078BBD400DA7DE4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>569ED6D57CE84E189907CDB1</string>
+				<string>B70C15BC80CE4796A6A224A8</string>
+				<string>2DBD5D60F66746C0AE5EB9D5</string>
+				<string>7394A069B0194CEDB1480C52</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>25AF29873078BBD400DA7DE4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>25AF29883078BBD400DA7DE4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E9852AEFF412468FA180F086</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>25AF29893078BBD400DA7DE4</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>25AF29AD3078BBD600DA7DE4</string>
+			<key>buildPhases</key>
+			<array>
+				<string>25AF29863078BBD400DA7DE4</string>
+				<string>25AF29873078BBD400DA7DE4</string>
+				<string>25AF29883078BBD400DA7DE4</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>QuickTasks Watch App</string>
+			<key>packageProductDependencies</key>
+			<array/>
+			<key>productName</key>
+			<string>QuickTasks Watch App</string>
+			<key>productReference</key>
+			<string>25AF298A3078BBD400DA7DE4</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>25AF298A3078BBD400DA7DE4</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>QuickTasks Watch App.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>25AF298B3078BBD400DA7DE4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>25AF298A3078BBD400DA7DE4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>RemoveHeadersOnCopy</string>
+				</array>
+			</dict>
+		</dict>
+		<key>25AF298C3078BBD400DA7DE4</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>25AF297E3078BBD300DA7DE4</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>25AF29893078BBD400DA7DE4</string>
+			<key>remoteInfo</key>
+			<string>QuickTasks Watch App</string>
+		</dict>
+		<key>25AF298D3078BBD400DA7DE4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>25AF29893078BBD400DA7DE4</string>
+			<key>targetProxy</key>
+			<string>25AF298C3078BBD400DA7DE4</string>
+		</dict>
+		<key>25AF29953078BBD600DA7DE4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>31A0B4684D644D8D9C75ECEE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>25AF29963078BBD600DA7DE4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>25AF29973078BBD600DA7DE4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>25AF29983078BBD600DA7DE4</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>25AF29B43078BBD600DA7DE4</string>
+			<key>buildPhases</key>
+			<array>
+				<string>25AF29953078BBD600DA7DE4</string>
+				<string>25AF29963078BBD600DA7DE4</string>
+				<string>25AF29973078BBD600DA7DE4</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>25AF299B3078BBD600DA7DE4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>QuickTasks Watch AppTests</string>
+			<key>packageProductDependencies</key>
+			<array/>
+			<key>productName</key>
+			<string>QuickTasks Watch AppTests</string>
+			<key>productReference</key>
+			<string>25AF29993078BBD600DA7DE4</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>25AF29993078BBD600DA7DE4</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>QuickTasks Watch AppTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>25AF299A3078BBD600DA7DE4</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>25AF297E3078BBD300DA7DE4</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>25AF29893078BBD400DA7DE4</string>
+			<key>remoteInfo</key>
+			<string>QuickTasks Watch App</string>
+		</dict>
+		<key>25AF299B3078BBD600DA7DE4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>25AF29893078BBD400DA7DE4</string>
+			<key>targetProxy</key>
+			<string>25AF299A3078BBD600DA7DE4</string>
+		</dict>
+		<key>25AF299F3078BBD600DA7DE4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E0572577E60B491497CF908F</string>
+				<string>7E4C02E3732A4B3E8794952B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>25AF29A03078BBD600DA7DE4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>25AF29A13078BBD600DA7DE4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>25AF29A23078BBD600DA7DE4</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>25AF29B73078BBD600DA7DE4</string>
+			<key>buildPhases</key>
+			<array>
+				<string>25AF299F3078BBD600DA7DE4</string>
+				<string>25AF29A03078BBD600DA7DE4</string>
+				<string>25AF29A13078BBD600DA7DE4</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>25AF29A53078BBD600DA7DE4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>QuickTasks Watch AppUITests</string>
+			<key>packageProductDependencies</key>
+			<array/>
+			<key>productName</key>
+			<string>QuickTasks Watch AppUITests</string>
+			<key>productReference</key>
+			<string>25AF29A33078BBD600DA7DE4</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>25AF29A33078BBD600DA7DE4</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>QuickTasks Watch AppUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>25AF29A43078BBD600DA7DE4</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>25AF297E3078BBD300DA7DE4</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>25AF29893078BBD400DA7DE4</string>
+			<key>remoteInfo</key>
+			<string>QuickTasks Watch App</string>
+		</dict>
+		<key>25AF29A53078BBD600DA7DE4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>25AF29893078BBD400DA7DE4</string>
+			<key>targetProxy</key>
+			<string>25AF29A43078BBD600DA7DE4</string>
+		</dict>
+		<key>25AF29AB3078BBD600DA7DE4</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS</key>
+				<string>YES</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++20</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_WEAK</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_COMMA</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_NON_LITERAL_NULL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_LITERAL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER</key>
+				<string>YES</string>
+				<key>CLANG_WARN_RANGE_LOOP_ANALYSIS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_STRICT_PROTOTYPES</key>
+				<string>YES</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNGUARDED_AVAILABILITY</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string></string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>ENABLE_USER_SCRIPT_SANDBOXING</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu17</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>LOCALIZATION_PREFERS_STRING_CATALOGS</key>
+				<string>YES</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>INCLUDE_SOURCE</string>
+				<key>MTL_FAST_MATH</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SWIFT_ACTIVE_COMPILATION_CONDITIONS</key>
+				<string>DEBUG $(inherited)</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>25AF29AC3078BBD600DA7DE4</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS</key>
+				<string>YES</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++20</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_WEAK</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_COMMA</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_NON_LITERAL_NULL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_LITERAL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER</key>
+				<string>YES</string>
+				<key>CLANG_WARN_RANGE_LOOP_ANALYSIS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_STRICT_PROTOTYPES</key>
+				<string>YES</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNGUARDED_AVAILABILITY</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string></string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_USER_SCRIPT_SANDBOXING</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu17</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>LOCALIZATION_PREFERS_STRING_CATALOGS</key>
+				<string>YES</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>MTL_FAST_MATH</key>
+				<string>YES</string>
+				<key>SWIFT_COMPILATION_MODE</key>
+				<string>wholemodule</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>25AF29AD3078BBD600DA7DE4</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>25AF29AE3078BBD600DA7DE4</string>
+				<string>25AF29AF3078BBD600DA7DE4</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>25AF29AE3078BBD600DA7DE4</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME</key>
+				<string>AccentColor</string>
+				<key>CODE_SIGN_STYLE</key>
+				<string>Automatic</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string></string>
+				<key>ENABLE_PREVIEWS</key>
+				<string>YES</string>
+				<key>GENERATE_INFOPLIST_FILE</key>
+				<string>YES</string>
+				<key>INFOPLIST_KEY_CFBundleDisplayName</key>
+				<string>QuickTasks</string>
+				<key>INFOPLIST_KEY_UISupportedInterfaceOrientations</key>
+				<string>UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown</string>
+				<key>INFOPLIST_KEY_WKWatchOnly</key>
+				<string>YES</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+				</array>
+				<key>MARKETING_VERSION</key>
+				<string>1.0</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>lk.ac.sliit.QuickTasks.watchkitapp</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>watchos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>STRING_CATALOG_GENERATE_SYMBOLS</key>
+				<string>YES</string>
+				<key>SWIFT_APPROACHABLE_CONCURRENCY</key>
+				<string>YES</string>
+				<key>SWIFT_DEFAULT_ACTOR_ISOLATION</key>
+				<string>MainActor</string>
+				<key>SWIFT_EMIT_LOC_STRINGS</key>
+				<string>YES</string>
+				<key>SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>5.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>4</string>
+				<key>WATCHOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>25AF29AF3078BBD600DA7DE4</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME</key>
+				<string>AccentColor</string>
+				<key>CODE_SIGN_STYLE</key>
+				<string>Automatic</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string></string>
+				<key>ENABLE_PREVIEWS</key>
+				<string>YES</string>
+				<key>GENERATE_INFOPLIST_FILE</key>
+				<string>YES</string>
+				<key>INFOPLIST_KEY_CFBundleDisplayName</key>
+				<string>QuickTasks</string>
+				<key>INFOPLIST_KEY_UISupportedInterfaceOrientations</key>
+				<string>UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown</string>
+				<key>INFOPLIST_KEY_WKWatchOnly</key>
+				<string>YES</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+				</array>
+				<key>MARKETING_VERSION</key>
+				<string>1.0</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>lk.ac.sliit.QuickTasks.watchkitapp</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>watchos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>STRING_CATALOG_GENERATE_SYMBOLS</key>
+				<string>YES</string>
+				<key>SWIFT_APPROACHABLE_CONCURRENCY</key>
+				<string>YES</string>
+				<key>SWIFT_DEFAULT_ACTOR_ISOLATION</key>
+				<string>MainActor</string>
+				<key>SWIFT_EMIT_LOC_STRINGS</key>
+				<string>YES</string>
+				<key>SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>5.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>4</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+				<key>WATCHOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>25AF29B03078BBD600DA7DE4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>dstPath</key>
+			<string>$(CONTENTS_FOLDER_PATH)/Watch</string>
+			<key>dstSubfolderSpec</key>
+			<string>16</string>
+			<key>files</key>
+			<array>
+				<string>25AF298B3078BBD400DA7DE4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXCopyFilesBuildPhase</string>
+			<key>name</key>
+			<string>Embed Watch Content</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>25AF29B13078BBD600DA7DE4</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>25AF29B23078BBD600DA7DE4</string>
+				<string>25AF29B33078BBD600DA7DE4</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>25AF29B23078BBD600DA7DE4</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_STYLE</key>
+				<string>Automatic</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string></string>
+				<key>INFOPLIST_KEY_CFBundleDisplayName</key>
+				<string>QuickTasks</string>
+				<key>MARKETING_VERSION</key>
+				<string>1.0</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>lk.ac.sliit.QuickTasks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_APPROACHABLE_CONCURRENCY</key>
+				<string>YES</string>
+				<key>SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>5.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>25AF29B33078BBD600DA7DE4</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_STYLE</key>
+				<string>Automatic</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string></string>
+				<key>INFOPLIST_KEY_CFBundleDisplayName</key>
+				<string>QuickTasks</string>
+				<key>MARKETING_VERSION</key>
+				<string>1.0</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>lk.ac.sliit.QuickTasks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_APPROACHABLE_CONCURRENCY</key>
+				<string>YES</string>
+				<key>SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>5.0</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>25AF29B43078BBD600DA7DE4</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>25AF29B53078BBD600DA7DE4</string>
+				<string>25AF29B63078BBD600DA7DE4</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>25AF29B53078BBD600DA7DE4</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>CODE_SIGN_STYLE</key>
+				<string>Automatic</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string></string>
+				<key>GENERATE_INFOPLIST_FILE</key>
+				<string>YES</string>
+				<key>MARKETING_VERSION</key>
+				<string>1.0</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>lk.ac.sliit.QuickTasks-Watch-AppTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>watchos</string>
+				<key>STRING_CATALOG_GENERATE_SYMBOLS</key>
+				<string>NO</string>
+				<key>SWIFT_APPROACHABLE_CONCURRENCY</key>
+				<string>YES</string>
+				<key>SWIFT_EMIT_LOC_STRINGS</key>
+				<string>NO</string>
+				<key>SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>5.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>4</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/QuickTasks Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuickTasks Watch App</string>
+				<key>WATCHOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>25AF29B63078BBD600DA7DE4</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>CODE_SIGN_STYLE</key>
+				<string>Automatic</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string></string>
+				<key>GENERATE_INFOPLIST_FILE</key>
+				<string>YES</string>
+				<key>MARKETING_VERSION</key>
+				<string>1.0</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>lk.ac.sliit.QuickTasks-Watch-AppTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>watchos</string>
+				<key>STRING_CATALOG_GENERATE_SYMBOLS</key>
+				<string>NO</string>
+				<key>SWIFT_APPROACHABLE_CONCURRENCY</key>
+				<string>YES</string>
+				<key>SWIFT_EMIT_LOC_STRINGS</key>
+				<string>NO</string>
+				<key>SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>5.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>4</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/QuickTasks Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuickTasks Watch App</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+				<key>WATCHOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>25AF29B73078BBD600DA7DE4</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>25AF29B83078BBD600DA7DE4</string>
+				<string>25AF29B93078BBD600DA7DE4</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>25AF29B83078BBD600DA7DE4</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_STYLE</key>
+				<string>Automatic</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string></string>
+				<key>GENERATE_INFOPLIST_FILE</key>
+				<string>YES</string>
+				<key>MARKETING_VERSION</key>
+				<string>1.0</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>lk.ac.sliit.QuickTasks-Watch-AppUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>watchos</string>
+				<key>STRING_CATALOG_GENERATE_SYMBOLS</key>
+				<string>NO</string>
+				<key>SWIFT_APPROACHABLE_CONCURRENCY</key>
+				<string>YES</string>
+				<key>SWIFT_EMIT_LOC_STRINGS</key>
+				<string>NO</string>
+				<key>SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>5.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>4</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>QuickTasks Watch App</string>
+				<key>WATCHOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>25AF29B93078BBD600DA7DE4</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_STYLE</key>
+				<string>Automatic</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string></string>
+				<key>GENERATE_INFOPLIST_FILE</key>
+				<string>YES</string>
+				<key>MARKETING_VERSION</key>
+				<string>1.0</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>lk.ac.sliit.QuickTasks-Watch-AppUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>watchos</string>
+				<key>STRING_CATALOG_GENERATE_SYMBOLS</key>
+				<string>NO</string>
+				<key>SWIFT_APPROACHABLE_CONCURRENCY</key>
+				<string>YES</string>
+				<key>SWIFT_EMIT_LOC_STRINGS</key>
+				<string>NO</string>
+				<key>SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>5.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>4</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>QuickTasks Watch App</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+				<key>WATCHOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>2DBD5D60F66746C0AE5EB9D5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>892F3A7F97A044C395570A09</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>31A0B4684D644D8D9C75ECEE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>00E3C1D844B746388C597C1E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3447AD7EA77F47A8900103AC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ContentView.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3E8D2A15547A4AAE96136FF5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>QuickTasks_Watch_AppUITests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4211A473A330436B81EB2977</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>TaskItem.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>569ED6D57CE84E189907CDB1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>608D828EE7964D559BDCC817</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>58E118D19C6242E6968B2CD7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>608D828EE7964D559BDCC817</string>
+				<string>3447AD7EA77F47A8900103AC</string>
+				<string>892F3A7F97A044C395570A09</string>
+				<string>4211A473A330436B81EB2977</string>
+				<string>E6EB8D0EEC3B4560B03E6D23</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>QuickTasks Watch App</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>608D828EE7964D559BDCC817</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>QuickTasksApp.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7394A069B0194CEDB1480C52</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4211A473A330436B81EB2977</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7E4C02E3732A4B3E8794952B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E13558A818314E82BDEFAB7F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>892F3A7F97A044C395570A09</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>TaskDetailView.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B70C15BC80CE4796A6A224A8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3447AD7EA77F47A8900103AC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E0572577E60B491497CF908F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E8D2A15547A4AAE96136FF5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E13558A818314E82BDEFAB7F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>QuickTasks_Watch_AppUITestsLaunchTests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E6EB8D0EEC3B4560B03E6D23</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E87AE62380254A3F9206428C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>00E3C1D844B746388C597C1E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>QuickTasks Watch AppTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E909132B379D41A798B28CD4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3E8D2A15547A4AAE96136FF5</string>
+				<string>E13558A818314E82BDEFAB7F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>QuickTasks Watch AppUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E9852AEFF412468FA180F086</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E6EB8D0EEC3B4560B03E6D23</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>25AF297E3078BBD300DA7DE4</string>
+</dict>
+</plist>
